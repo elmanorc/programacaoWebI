@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>tableSpan.html</title>
+</head>
+<body>
+    <h1>Usando colspan e rowspan</h1>
+    <table border = "1">
+      <caption><p><b>Meu horário<b></p></caption>
+       <tr>
+        <th></th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr> 
+      <tr>
+        <th>8h-10h</th>
+        <td>Programação Web I</td>
+        <td>Inteligência Artificial</td>
+        <td>Banco de Dados</td>
+        <td>Sistemas Distribuídos</td>
+        <td>Redes</td>
+      </tr>
+      <tr>
+        <th>10h-12h</th>
+        <td colspan = "2">Design thinking</td>
+        <td colspan = "3">Projeto de pesquisa</td>
+      </tr>
+      <tr>
+        <th>14h-16h</th>
+        <td>Inglês</td>
+        <td>Estudo</td>
+        <td>Inglês</td>
+        <td>Estudo</td>
+        <td rowspan = "3">Projeto de pesquisa</td>
+      </tr>
+      <tr>
+        <th>16h-18h</th>
+        <td>Teste de SW</td>
+        <td>Programação Mobile</td>
+        <td>Seg. da Infor.</td>
+        <td>Tópicos Avançados</td>
+      </tr>
+    </table>    
+</body>
+</html>

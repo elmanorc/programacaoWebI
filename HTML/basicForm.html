@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "pt-br"> 
+ 
+  <head>
+    <meta charset = "UTF-8">
+    <title>basicForm.html</title>
+  </head>
+ 
+  <body>
+    <h1>Formulário básico</h1>
+    <form action = "">
+	  <fieldset>
+	    <legend>Text input</legend>
+	    <p>
+		  <label>Text box</label>
+		  <input type = "text"
+		  id = "txtDescricao"
+		  value = "text here" /> </p>
+		<p>
+		  <label>Password</label>
+		  <input type = "password"
+		    id = "pwd"
+		    value = "secret" />
+		  <label>Text area</label> </p>
+		<p>
+		  <textarea id = "txtAnswer"
+		    rows = "10"
+		    cols = "40" 
+		    placeholder=" Your text here">
+		  </textarea> </p>
+	  </fieldset>
+	  <p>
+	   <label>Select list</label>
+        <select id = "quantidade">
+          <option value = "1">One</option>
+          <option value = "2">Two</option>
+          <option value = "3">Three</option>
+          <option value = "4">Four</option>
+          <option value = "5">Five</option>
+        </select>
+	  </p>
+	  <p>
+	   <label>Check boxes</label>
+	   <input type = "checkbox"
+              id = "chkEgs"
+              value = "eggs" />Green Eggs
+	   <input type = "checkbox"
+              id = "chkHam"
+              value = "Ham" />Ham
+	  </p>
+	  <p>
+	    <label>Radio buttons</label>
+        <input type = "radio"
+               name = "size"
+               id = "radSmall"
+			   value = "1"
+			   checked = "checked"/> small
+        <input type = "radio"
+               name = "size"
+               id = "radMedium"
+               value = "2" /> medium
+        <input type = "radio"
+               name = "size"
+               id = "radLarge"
+               value = "3" /> large
+        </p>
+		<p>
+		<button type="button">standard button
+		</button>
+		<input type = "button"
+               value = "input type = button" />
+		<input type = "reset"
+               value = "Reset" />
+		<input type = "submit" value="Submit" />
+	  </p>
+    </form>
+  </body>
+</html>
